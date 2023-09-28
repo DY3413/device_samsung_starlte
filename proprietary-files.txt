@@ -39,6 +39,12 @@ vendor/firmware/HFD_tracker.bin
 vendor/firmware/ois_fw_dom.bin
 vendor/firmware/ois_fw_sec.bin
 
+# Fingerprint
+-vendor/lib/libbauthserver.so
+-vendor/lib/libbauthtzcommon.so
+-vendor/lib64/libbauthserver.so
+-vendor/lib64/libbauthtzcommon.so
+
 # Firmware
 vendor/firmware/setfile_2l3.bin
 vendor/firmware/setfile_3h1.bin
@@ -72,6 +78,14 @@ vendor/firmware/nfc/BRI/sec_s3nrn82_firmware.bin
 
 # RIL
 vendor/etc/plmn_se13.bin
+
+# Sensors
+-vendor/bin/hw/lhd
+vendor/etc/sensor/lhd.conf
+-vendor/lib/sensors.bio.so
+-vendor/lib/sensors.sensorhub.so
+-vendor/lib64/sensors.bio.so
+-vendor/lib64/sensors.sensorhub.so
 
 # Mobicore
 vendor/app/mcRegistry/00060308060501020000000000000000.tlbin
