@@ -1,3 +1,5 @@
+# Proprietary files - from Samsung package version G960FXXUHFVK1, unless pinned
+
 # Audio
 vendor/lib/hw/audio.primary.exynos9810.so
 vendor/lib/libaudioproxy.so
@@ -38,12 +40,29 @@ vendor/firmware/setfile_3h1.bin
 vendor/firmware/setfile_3m3.bin
 vendor/firmware/vts.bin
 
+# Gatekeeper
+-vendor/lib/hw/gatekeeper.exynos9810.so
+-vendor/lib64/hw/gatekeeper.exynos9810.so
+
+# Keymaster
+-vendor/lib64/hw/keystore.mdfpp.so
+-vendor/lib64/libkeymaster2_mdfpp.so
+-vendor/lib64/libskeymaster3device.so
+-vendor/lib64/libkeymaster_helper_vendor.so
+
 # NFC
 vendor/firmware/nfc/sec_s3nrn82_firmware.bin
 vendor/firmware/nfc/BRI/sec_s3nrn82_firmware.bin
 
 # RIL
 vendor/etc/plmn_se13.bin
+
+# Mobicore
+vendor/app/mcRegistry/00060308060501020000000000000000.tlbin
+vendor/app/mcRegistry/ffffffff000000000000000000000059.tlbin
+vendor/app/mcRegistry/ffffffff00000000000000000000000f.tlbin
+vendor/app/mcRegistry/ffffffff00000000000000000000002e.tlbin
+vendor/app/mcRegistry/ffffffff00000000000000000000003e.tlbin
 
 # Wi-Fi
 vendor/etc/wifi/bcmdhd_clm.blob
