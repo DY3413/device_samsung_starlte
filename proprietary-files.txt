@@ -48,6 +48,17 @@ vendor/firmware/vts.bin
 -vendor/lib/hw/gatekeeper.exynos9810.so
 -vendor/lib64/hw/gatekeeper.exynos9810.so
 
+# GPS
+-vendor/bin/hw/gpsd
+-vendor/bin/hw/vendor.samsung.hardware.gnss@2.0-service
+vendor/etc/gnss/gps.xml
+vendor/etc/init/init.gps.rc
+vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc
+-vendor/lib64/libwrappergps.so
+-vendor/lib64/hw/android.hardware.gnss@2.0-impl.so
+-vendor/lib64/hw/gps.default.so
+-vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
+
 # Keymaster
 -vendor/lib64/hw/keystore.mdfpp.so
 -vendor/lib64/libkeymaster2_mdfpp.so
