@@ -6,5 +6,8 @@
 
 DEVICE_PATH := device/samsung/starlte
 
+# Kernel
+TARGET_KERNEL_CONFIG := exynos9810-starlte_defconfig
+
 # Inherit from proprietary files
 include vendor/samsung/starlte/BoardConfigVendor.mk
