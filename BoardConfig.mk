@@ -5,3 +5,6 @@
 #
 
 DEVICE_PATH := device/samsung/starlte
+
+# Inherit from proprietary files
+include vendor/samsung/starlte/BoardConfigVendor.mk
