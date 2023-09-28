@@ -24,6 +24,10 @@ vendor/firmware/SoundBoosterParam.bin
 vendor/firmware/bcm4361B2_murata.hcd
 vendor/firmware/bcm4361B2_semco.hcd
 
+# Camera
+-vendor/lib64/hw/camera.exynos9810.so|6f4a006d71c51c6c8f73254cd58dd66b19988c1e
+-vendor/lib64/libexynoscamera3.so|3526aa412e4760f9d049ad42a5260d25625ae65b
+
 # Camera Firmware
 vendor/firmware/fimc_is_lib.bin
 vendor/firmware/fimc_is_rta_2l3_3h1.bin
